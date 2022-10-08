@@ -43,6 +43,13 @@ After forking and cloning the project, you will have install all the dependencie
 $ npm install
 ```
 
+Create a '.env' file and add the following data:
+
+```
+MONGODB_URI=mongodb://localhost:27017/lab-movies-celebrities
+PORT=3000
+```
+
 To run the app:
 
 ```shell
